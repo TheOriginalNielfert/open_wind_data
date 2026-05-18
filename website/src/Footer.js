@@ -57,7 +57,7 @@ function Footer() {
       <hr className="border-darkblue mb-6"/>
 
       <p className="font-mono text-sm text-gray-400 text-center">
-        © 2026 Open Wind Data · Built with ♥ for the wind energy community
+        © 2026 Open Wind Data
       </p>
 
     </footer>
