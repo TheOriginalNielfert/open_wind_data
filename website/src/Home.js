@@ -1,4 +1,3 @@
-import logo from './logo2.png';
 import { Link } from 'react-router-dom';
 
 function Home() {
