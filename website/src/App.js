@@ -23,6 +23,7 @@ function App() {
             <Link to="/request-access" className="font-mono text-darkblue hover:text-lightblue">Get Access</Link>
             <Link to="/how-it-works" className="font-mono text-darkblue hover:text-lightblue">How it Works</Link>
             <Link to="/contributors" className="font-mono text-darkblue hover:text-lightblue">Contributors</Link>
+            <Link to="/badges" className="font-mono text-darkblue hover:text-lightblue">Badges</Link>
             <Link to="/about" className="font-mono text-darkblue hover:text-lightblue">About</Link>
           </nav>
         </header>
