@@ -5,6 +5,11 @@ import Upload from './Upload';
 import RequestAccess from './RequestAccess';
 import HowItWorks from './HowItWorks';
 import Contributors from './Contributors';
+import About from './About';
+import Footer from './Footer';
+import Imprint from './Imprint';
+import Privacy from './Privacy';
+import Badges from './Badges';
 
 function App() {
   return (
@@ -27,7 +32,12 @@ function App() {
           <Route path="/request-access" element={<RequestAccess/>}/>
           <Route path="/how-it-works" element={<HowItWorks/>}/>
           <Route path="/contributors" element={<Contributors/>}/>
+          <Route path="/about" element={<About/>}/>
+          <Route path="/imprint" element={<Imprint/>}/>
+          <Route path="/privacy" element={<Privacy/>}/>
+          <Route path="/badges" element={<Badges/>}/>
         </Routes>
+        <Footer/>
       </div>
     </BrowserRouter>
   )

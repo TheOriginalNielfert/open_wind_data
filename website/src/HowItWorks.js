@@ -52,6 +52,11 @@ function HowItWorks() {
       <div className="flex flex-col gap-3 border-2 border-darkblue rounded-xl p-8">
         <h2 className="font-mono font-bold text-2xl text-highlight">The Data</h2>
         <p className="font-mono text-lg mt-2">
+            All datasets are stored on Zenodo – a open repository operated by CERN 
+            and funded by the European Union. Zenodo provides permanent storage, 
+            unique DOIs for every dataset and is trusted by the scientific community 
+            worldwide.
+        <br/>
           Metadata published on Open Wind Data may also be found in the German Marktstammdatenregister. 
           <br/>
           SCADA time series data is not publicly available and is shared exclusively within the Open Wind Data community under CC BY 4.0.
