@@ -10,7 +10,7 @@ function App() {
   return (
     <BrowserRouter>
       <div className="min-h-screen bg-parchment">
-        <header className="flex justify-start items-end gap-12 px-8 py-6">
+        <header className="flex justify-start items-end gap-12 px-8 py-12">
           <img src={logo} alt="Open Wind Data" className="h-80 w-80"/>
           <nav className="flex gap-10 text-l">
             <Link to="/" className="font-mono text-darkblue hover:text-lightblue">Home</Link>
