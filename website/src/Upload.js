@@ -123,21 +123,27 @@ function Upload() {
 
         {/* Coordinates */}
         <div className="flex flex-col gap-2">
-        <label className="font-mono font-bold">Location (approximate)</label>
-        <div className="flex gap-4">
-            <input 
-            type="number" 
-            name="latitude"
-            placeholder="Latitude e.g. 52.52"
-            className="font-mono bg-transparent border-2 border-darkblue rounded-lg px-4 py-2 outline-none focus:border-highlight w-full"
+          <label className="font-mono font-bold">
+            Location (approximate)
+          </label>
+
+          <div className="flex gap-4">
+            <input
+              type="number"
+              name="latitude"
+              step="any"
+              placeholder="Latitude e.g. 52.52"
+              className="font-mono bg-transparent border-2 border-darkblue rounded-lg px-4 py-2 outline-none focus:border-highlight w-full"
             />
-            <input 
-            type="number" 
-            name="longitude"
-            placeholder="Longitude e.g. 13.41"
-            className="font-mono bg-transparent border-2 border-darkblue rounded-lg px-4 py-2 outline-none focus:border-highlight w-full"
+
+            <input
+              type="number"
+              name="longitude"
+              step="any"
+              placeholder="Longitude e.g. 13.41"
+              className="font-mono bg-transparent border-2 border-darkblue rounded-lg px-4 py-2 outline-none focus:border-highlight w-full"
             />
-        </div>
+          </div>
         </div>
 
         {/* File Upload */}
