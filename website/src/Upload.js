@@ -63,6 +63,10 @@ function Upload() {
               For smaller datasets send the files directly via email. 
               For larger datasets upload to Google Drive and share the link.
               In both cases please include the filled mapping template.
+              Upload whatever data you have — SCADA time series, event logs, 
+              status codes, meter data. Any format works, any resolution. 
+              Just name your files clearly so we can assign them to the right turbine.
+              The only thing we need from you is the filled mapping template.
             </p>
             <a
               href="mailto:openwinddata@proton.me"
@@ -70,6 +74,9 @@ function Upload() {
             >
               ✉ openwinddata@proton.me
             </a>
+            <p className="font-mono text-gray-600 text-sm">
+              Any questions? Feel free to reach out — we are happy to help.
+            </p>
           </div>
 
           <div className="flex flex-col gap-2">
