@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom';
 
 function HowItWorks() {
   return (
-    <div className="flex flex-col gap-8 p-16">
+    <div className="flex gap-8 items-start max-w-6xl mx-auto w-full">
       <h1 className="font-mono font-bold text-4xl text-center">How it Works</h1>
 
       {/* Two columns */}
