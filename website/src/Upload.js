@@ -5,21 +5,24 @@ function Upload() {
   const [formStatus, setFormStatus] = useState('');
 
   const handleSubmit = async (e) => {
-    e.preventDefault();
-    setFormStatus('loading');
-    const form = e.target;
-    const data = new FormData(form);
-    const response = await fetch('/', {
-      method: 'POST',
-      body: data,
-    });
-    if (response.ok) {
-      setFormStatus('success');
-      form.reset();
-    } else {
-      setFormStatus('error');
-    }
-  };
+  e.preventDefault();
+  setFormStatus('loading');
+  const form = e.target;
+  const data = new FormData(form);
+  
+  const response = await fetch('https://formspree.io/f/maqkylqp', {
+    method: 'POST',
+    body: data,
+    headers: { 'Accept': 'application/json' }
+  });
+
+  if (response.ok) {
+    setFormStatus('success');
+    form.reset();
+  } else {
+    setFormStatus('error');
+  }
+};
 
   return (
     <div className="flex flex-col gap-8 p-16">
@@ -104,12 +107,8 @@ function Upload() {
 
           <form
             onSubmit={handleSubmit}
-            name="upload"
-            netlify
             className="flex flex-col gap-4"
           >
-            <input type="hidden" name="form-name" value="upload"/>
-
             <div className="flex flex-col gap-2">
               <label className="font-mono font-bold">Email Address</label>
               <input

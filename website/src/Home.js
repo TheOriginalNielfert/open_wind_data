@@ -15,10 +15,10 @@ function Home() {
   }, []);
 
   return (
-    <section className="flex gap-8 px-16 py-16 items-start">
+    <section className="flex gap-8 px-16 py-16 items-start max-w-4xl mx-auto w-full">
 
       {/* Left: Hero Text */}
-      <div className="flex flex-col gap-6 flex-1 border-2 border-darkblue rounded-xl p-8">
+      <div className="flex flex-col gap-6 border-2 border-darkblue rounded-xl p-8 flex-1">
         <h2 className="font-mono font-bold text-4xl">
           Open SCADA Data for
           <span className="font-mono text-highlight"> Wind Energy Research</span>
