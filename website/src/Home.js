@@ -18,7 +18,7 @@ function Home() {
     <section className="flex gap-8 px-16 py-16 items-start">
 
       {/* Left: Hero Text */}
-      <div className="flex flex-col gap-6 flex-1">
+      <div className="flex flex-col gap-6 flex-1 border-2 border-darkblue rounded-xl p-8">
         <h2 className="font-mono font-bold text-4xl">
           Open SCADA Data for
           <span className="font-mono text-highlight"> Wind Energy Research</span>
