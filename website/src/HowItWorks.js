@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom';
 
 function HowItWorks() {
   return (
-    <div className="flex gap-8 items-start max-w-6xl mx-auto w-full">
+    <div className="flex flex-col gap-8 p-16">
       <h1 className="font-mono font-bold text-4xl text-center">How it Works</h1>
 
       {/* Two columns */}
@@ -17,7 +17,7 @@ function HowItWorks() {
           <div className="flex flex-col gap-2">
             <p className="font-mono"><span className="font-bold">1. Fill out the form</span> – tell us about your turbines and upload your dataset.</p>
             <p className="font-mono"><span className="font-bold">2. Attach your data</span> – export what you have from your SCADA system. Any format works, we take care of the rest.</p>
-            <p className="font-mono"><span className="font-bold">3. Submit your data</span> – will we review your data.</p>
+            <p className="font-mono"><span className="font-bold">3. Submit your data</span> – we will review your data.</p>
             <p className="font-mono"><span className="font-bold">4. Get access</span> – once we have processed your data you get full access to the entire repository.</p>
           </div>
           <Link to="/upload">
@@ -51,17 +51,16 @@ function HowItWorks() {
       {/* The Data */}
       <div className="flex flex-col gap-3 border-2 border-darkblue rounded-xl p-8">
         <h2 className="font-mono font-bold text-2xl text-highlight">The Data</h2>
-        <p className="font-mono text-lg mt-2">
-            All datasets are stored on Zenodo – a open repository operated by CERN 
-            and funded by the European Union. Zenodo provides permanent storage, 
-            unique DOIs for every dataset and is trusted by the scientific community 
-            worldwide.
-        <br/>
-          Metadata published on Open Wind Data may also be found in the German Marktstammdatenregister. 
+        <p className="font-mono text-lg">
+          All datasets are stored on Zenodo – an open repository operated by CERN 
+          and funded by the European Union. Zenodo provides permanent storage, 
+          unique DOIs for every dataset and is trusted by the scientific community 
+          worldwide.
+          <br/>
+          Metadata published on Open Wind Data may also be found in the German Marktstammdatenregister.
           <br/>
           SCADA time series data is not publicly available and is shared exclusively within the Open Wind Data community under CC BY 4.0.
-          <br/>
-          <br/>
+          <br/><br/>
           All data is licensed under CC BY 4.0.
         </p>
       </div>
