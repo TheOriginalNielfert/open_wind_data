@@ -52,7 +52,7 @@ function Upload() {
               Name your files clearly, e.g. <span className="font-bold">WEA_01_2020_2023.csv</span>
             </p>
             <p className="font-mono text-sm text-highlight">
-              💡 Pro tip: Older datasets (3+ years) have no operational value 
+              Tip: Older datasets (3+ years) have no operational value 
               but full research value — and protect your privacy.
             </p>
           </div>
@@ -61,7 +61,7 @@ function Upload() {
             <p className="font-mono font-bold">3. Send us your data</p>
             <p className="font-mono text-gray-600 text-sm">
               For smaller datasets send the files directly via email. 
-              For larger datasets upload to Google Drive and share the link.
+              For larger datasets upload to Google Drive, Dropbox or any other data sharing platform and share the link.
               In both cases please include the filled mapping template.
               Upload whatever data you have — SCADA time series, event logs, 
               status codes, meter data. Any format works, any resolution. 
@@ -145,7 +145,7 @@ function Upload() {
 
             <div className="flex flex-col gap-2">
               <label className="font-mono font-bold">
-                Google Drive Link <span className="text-gray-400 font-normal">(optional)</span>
+                Data Sharing Link <span className="text-gray-400 font-normal">(optional)</span>
               </label>
               <input
                 type="url"
